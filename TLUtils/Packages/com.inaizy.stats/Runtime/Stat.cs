@@ -8,7 +8,7 @@ namespace TLUtils
     public abstract class Stat<T> : ScriptableObject
     {
         public T Value { get => _value; }
-        protected T _value;
+        [SerializeField] protected T _value;
         public Action ValueChanged;
 
 
