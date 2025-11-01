@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.inaizy.stats": {
-      "version": "file:ScriptableObject Stats",
+      "version": "file:com.inaizy.stats",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
