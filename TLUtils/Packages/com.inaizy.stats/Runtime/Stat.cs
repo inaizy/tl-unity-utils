@@ -5,7 +5,6 @@ using System;
 
 namespace TLUtils
 {
-    /**/
     public abstract class Stat<T> : ScriptableObject
     {
         public T Value { get => _value; }

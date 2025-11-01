@@ -6,7 +6,6 @@ using System;
 
 namespace TLUtils
 {
-
     [CreateAssetMenu(menuName = "ScriptableObjects / Stat / Float")]
     public class FloatStat : Stat<float>
     {
