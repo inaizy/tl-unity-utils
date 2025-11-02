@@ -18,7 +18,7 @@ namespace TLUtils
 
         public override void Reset()
         {
-            _value = 0;
+            _value = _defaultValue;
             ValueChanged?.Invoke();
         }
 
